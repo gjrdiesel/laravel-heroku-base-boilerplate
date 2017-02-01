@@ -1,0 +1,13 @@
+{
+    "name": "gjrdiesel/laravel-heroku-base-boilerplate",
+    "description": "Basic boilerplate stuff to get laravel running on heroku",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin",
+            "email": "knoxxbox@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -10,8 +10,26 @@ This also covers flynn.io as they are pretty much the same and reuse the same bu
 
 ```
 composer require gjrdiesel/laravel-heroku-base-boilerplate
+```
 
-php artisan cloud:configure
+Add `GjrDiesel\LaravelPaas\PaasServiceProvider::class,` to your `config/app.php` file **under** the section:
+
+```
+/*
+ * Package Service Providers...
+ */
+``` 
+
+Then run
+
+```
+php artisan paas:setup
+```
+
+After that you are ready to push to heroku or flynn.
+
+```
+git push flynn master
 ```
 
 ## Details
