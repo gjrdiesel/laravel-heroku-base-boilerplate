@@ -9,5 +9,10 @@
             "email": "knoxxbox@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GjrDiesel\\LaravelPaas\\": "src"
+        }
+    }
 }
