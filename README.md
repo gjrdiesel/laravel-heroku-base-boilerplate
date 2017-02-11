@@ -9,7 +9,7 @@ This also covers flynn.io as they are pretty much the same and reuse the same bu
 ## Install instructions
 
 ```
-composer require gjrdiesel/laravel-heroku-base-boilerplate
+composer require gjrdiesel/laravel-heroku-base-boilerplate:dev-master
 ```
 
 Add `GjrDiesel\LaravelPaas\PaasServiceProvider::class,` to your `config/app.php` file **under** the section:
